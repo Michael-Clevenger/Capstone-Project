@@ -2,7 +2,11 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { faTruckMonster } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTruckMonster,
+  faBars,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -34,7 +38,7 @@ function Navbar() {
             <FontAwesomeIcon icon={faTruckMonster} />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+            <FontAwesomeIcon icon={click ? faTimes : faBars} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

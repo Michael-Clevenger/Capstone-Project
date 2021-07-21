@@ -32,6 +32,12 @@
 
 .fa-bars {
   color: lime;
+  margin-right: 10px;
+}
+
+.fa-times {
+  color: red;
+  margin-right: 10px;
 }
 
 .nav-menu {
