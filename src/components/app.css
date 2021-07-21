@@ -1,0 +1,479 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Year Zero */
+.yearZero > .zero-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearZero {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.zeroImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.zeroOne > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px lightcoral;
+}
+
+.zeroOne > .overlay > .zeroOneDescription {
+  color: red;
+
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.zeroTwo > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px lime;
+}
+
+.zeroTwo > .overlay > .zeroTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.zeroThree > .overlay > img {
+  height: 75vh;
+  width: 21vw;
+  margin: auto;
+  box-shadow: 0 1px 20px lightseagreen;
+}
+
+.zeroThree > .overlay > .zeroThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.zeroFour > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px lightskyblue;
+}
+
+.zeroFour > .overlay > .zeroFourDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .zeroImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .zeroImg > .zeroOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
+
+/* Year One */
+
+.yearOne > .one-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearOne {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.oneImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.oneOne > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px orange;
+}
+
+.oneOne > .overlay > .oneOneDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.oneTwo > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px mediumspringgreen;
+}
+
+.oneTwo > .overlay > .oneTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.oneThree > .overlay > img {
+  height: 75vh;
+  width: 15vw;
+  margin: auto;
+  box-shadow: 0 1px 20px lightseagreen;
+}
+
+.oneThree > .overlay > .oneThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.oneFour > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px lightgray;
+}
+
+.oneFour > .overlay > .oneFourDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .oneImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .oneImg > .oneOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .oneImg > .oneTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .oneImg > .oneThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .oneImg > .oneFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
+
+/* Year Two */
+
+.yearTwo > .two-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearTwo {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.twoImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twoOne > .overlay > img {
+  height: 75vh;
+  margin: auto;
+  box-shadow: 0 1px 20px orange;
+}
+
+.twoOne > .overlay > .twoOneDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.twoTwo > .overlay > img {
+  height: 75vh;
+  width: 20vw;
+  margin: auto;
+  box-shadow: 0 1px 20px mediumspringgreen;
+}
+
+.twoTwo > .overlay > .twoTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.twoThree > .overlay > img {
+  height: 75vh;
+  width: 16vw;
+  margin: auto;
+  box-shadow: 0 1px 20px lightseagreen;
+}
+
+.twoThree > .overlay > .twoThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.twoFour > .overlay > img {
+  height: 75vh;
+  width: 15.5vw;
+  margin: auto;
+  box-shadow: 0 1px 20px lightgray;
+}
+
+.twoFour > .overlay > .twoFourDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .twoImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .twoImg > .twoOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .twoImg > .twoTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .twoImg > .twoThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .twoImg > .twoFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
+
+/* Year Three */
+
+.yearThree > .three-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearThree {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.threeImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.threeOne > .overlay > img {
+  height: 75vh;
+  width: 13vw;
+  margin: auto;
+  box-shadow: 0 1px 20px pink;
+}
+
+.threeOne > .overlay > .threeOneDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.threeTwo > .overlay > img {
+  height: 75vh;
+  width: 23vw;
+  margin: auto;
+  box-shadow: 0 1px 20px cornflowerblue;
+}
+
+.threeTwo > .overlay > .threeTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.threeThree > .overlay > img {
+  height: 75vh;
+  width: 22vw;
+  margin: auto;
+  box-shadow: 0 1px 20px seagreen;
+}
+
+.threeThree > .overlay > .threeThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.threeFour > .overlay > img {
+  height: 75vh;
+  width: 12vw;
+  margin: auto;
+  box-shadow: 0 1px 20px magenta;
+}
+
+.threeFour > .overlay > .threeFourDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .threeImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .threeImg > .threeOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .threeImg > .threeTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .threeImg > .threeThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .threeImg > .threeFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
+
+/* Year Four */
+
+.yearFour > .four-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearFour {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.fourImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourOne > .overlay > img {
+  height: 75vh;
+  width: 16vw;
+  margin: auto;
+  box-shadow: 0 1px 20px chocolate;
+}
+
+.fourOne > .overlay > .fourOneDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.fourTwo > .overlay > img {
+  height: 75vh;
+  width: 16vw;
+  margin: auto;
+  box-shadow: 0 1px 20px navajowhite;
+}
+
+.fourTwo > .overlay > .fourTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.fourThree > .overlay > img {
+  height: 75vh;
+  width: 15vw;
+  margin: auto;
+  box-shadow: 0 1px 20px aqua;
+}
+
+.fourThree > .overlay > .fourThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+.fourFour > .overlay > img {
+  height: 75vh;
+  width: 13vw;
+  margin: auto;
+  box-shadow: 0 1px 20px seashell;
+}
+
+.fourFour > .overlay > .fourFourDescription {
+  color: red;
+  font-size: 18.7px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .fourImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourImg > .fourOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fourImg > .fourTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fourImg > .fourThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fourImg > .fourFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
