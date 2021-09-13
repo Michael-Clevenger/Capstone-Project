@@ -14,14 +14,10 @@ const Two = () => {
   const [descriptionFour, setDescriptionFour] = useState("");
 
   const fetchData = () => {
-    const twoImgOne =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28752";
-    const twoImgTwo =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28755";
-    const twoImgThree =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28756";
-    const twoImgFour =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28757";
+    const twoImgOne = "http://localhost:5000/image/11";
+    const twoImgTwo = "http://localhost:5000/image/12";
+    const twoImgThree = "http://localhost:5000/image/13";
+    const twoImgFour = "http://localhost:5000/image/14";
 
     const gettwoImgOne = axios.get(twoImgOne);
     const gettwoImgTwo = axios.get(twoImgTwo);
@@ -30,14 +26,20 @@ const Two = () => {
     axios.all([gettwoImgOne, gettwoImgTwo, gettwoImgThree, gettwoImgFour]).then(
       axios.spread((...responses) => {
         console.log(responses);
-        const responseTwoImgOne = responses[0].data.portfolio_item.url;
-        const responseTwoImgTwo = responses[1].data.portfolio_item.url;
-        const responseTwoImgThree = responses[2].data.portfolio_item.url;
-        const responseTwoImgFour = responses[3].data.portfolio_item.url;
-        setDescription(responses[0].data.portfolio_item.description);
-        setDescriptionTwo(responses[1].data.portfolio_item.description);
-        setDescriptionThree(responses[2].data.portfolio_item.description);
-        setDescriptionFour(responses[3].data.portfolio_item.description);
+        const responseTwoImgOne = responses[0].data.url;
+        const responseTwoImgTwo = responses[1].data.url;
+        const responseTwoImgThree = responses[2].data.url;
+        const responseTwoImgFour = responses[3].data.url;
+        console.log(
+          responseTwoImgOne,
+          responseTwoImgTwo,
+          responseTwoImgThree,
+          responseTwoImgFour,
+        );
+        setDescription(responses[0].data.description);
+        setDescriptionTwo(responses[1].data.description);
+        setDescriptionThree(responses[2].data.description);
+        setDescriptionFour(responses[3].data.description);
 
         setTwoImgOne(responseTwoImgOne);
         setTwoImgTwo(responseTwoImgTwo);
@@ -54,7 +56,7 @@ const Two = () => {
   return (
     <div className="yearTwo">
       <div className="two-header">
-        <h1 className="year-two">YEAR ONE</h1>
+        <h1 className="year-two">YEAR TWO</h1>
       </div>
 
       <div className="twoImg">

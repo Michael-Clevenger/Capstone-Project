@@ -14,14 +14,10 @@ const Zero = () => {
   const [descriptionFour, setDescriptionFour] = useState("");
 
   const fetchData = () => {
-    const zeroImgOne =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28740";
-    const zeroImgTwo =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28741";
-    const zeroImgThree =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28742";
-    const zeroImgFour =
-      "https://michaelclevenger.devcamp.space/portfolio/portfolio_items/28744";
+    const zeroImgOne = "http://localhost:5000/image/1";
+    const zeroImgTwo = "http://localhost:5000/image/2";
+    const zeroImgThree = "http://localhost:5000/image/4";
+    const zeroImgFour = "http://localhost:5000/image/5";
 
     const getzeroImgOne = axios.get(zeroImgOne);
     const getzeroImgTwo = axios.get(zeroImgTwo);
@@ -32,14 +28,20 @@ const Zero = () => {
       .then(
         axios.spread((...responses) => {
           console.log(responses);
-          const responseZeroImgOne = responses[0].data.portfolio_item.url;
-          const responseZeroImgTwo = responses[1].data.portfolio_item.url;
-          const responseZeroImgThree = responses[2].data.portfolio_item.url;
-          const responseZeroImgFour = responses[3].data.portfolio_item.url;
-          setDescription(responses[0].data.portfolio_item.description);
-          setDescriptionTwo(responses[1].data.portfolio_item.description);
-          setDescriptionThree(responses[2].data.portfolio_item.description);
-          setDescriptionFour(responses[3].data.portfolio_item.description);
+          const responseZeroImgOne = responses[0].data.url;
+          const responseZeroImgTwo = responses[1].data.url;
+          const responseZeroImgThree = responses[2].data.url;
+          const responseZeroImgFour = responses[3].data.url;
+          console.log(
+            responseZeroImgOne,
+            responseZeroImgTwo,
+            responseZeroImgThree,
+            responseZeroImgFour,
+          );
+          setDescription(responses[0].data.description);
+          setDescriptionTwo(responses[1].data.description);
+          setDescriptionThree(responses[2].data.description);
+          setDescriptionFour(responses[3].data.description);
 
           setZeroImgOne(responseZeroImgOne);
           setZeroImgTwo(responseZeroImgTwo);
