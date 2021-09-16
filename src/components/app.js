@@ -19,7 +19,7 @@ export default class App extends Component {
 
   getPortfolioItems() {
     axios
-      .get("http://localhost:5000/images")
+      .get("https://capstone-db-main.herokuapp.com/images")
       .then(function (response) {
         console.log(response);
       })

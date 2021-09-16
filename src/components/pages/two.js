@@ -14,10 +14,10 @@ const Two = () => {
   const [descriptionFour, setDescriptionFour] = useState("");
 
   const fetchData = () => {
-    const twoImgOne = "http://localhost:5000/image/11";
-    const twoImgTwo = "http://localhost:5000/image/12";
-    const twoImgThree = "http://localhost:5000/image/13";
-    const twoImgFour = "http://localhost:5000/image/14";
+    const twoImgOne = "https://capstone-db-main.herokuapp.com/image/11";
+    const twoImgTwo = "https://capstone-db-main.herokuapp.com/image/12";
+    const twoImgThree = "https://capstone-db-main.herokuapp.com/image/13";
+    const twoImgFour = "https://capstone-db-main.herokuapp.com/image/14";
 
     const gettwoImgOne = axios.get(twoImgOne);
     const gettwoImgTwo = axios.get(twoImgTwo);
