@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    host: "localhost",
-    port: 3000,
+    host: "localhosthttps://capstone-project-real-main.herokuapp.com/",
+    port: 8080,
   },
 };
