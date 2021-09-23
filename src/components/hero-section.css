@@ -8,8 +8,9 @@ video {
 
 .hero-container {
   background-image: url("https://i.imgur.com/uJF2tz3.gif");
+  background-repeat: no-repeat;
   background-color: black;
-  height: 100vh;
+  height: 78.15vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,6 @@ video {
 .hero-container > img {
   display: flex;
   height: 100vh;
-  background-repeat: no-repeat;
 }
 
 .hero-container > p {
