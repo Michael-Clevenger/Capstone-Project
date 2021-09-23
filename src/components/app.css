@@ -403,7 +403,7 @@
 
 .fourOne > .overlay > img {
   height: 75vh;
-  width: 16vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px chocolate;
 }
@@ -416,7 +416,7 @@
 
 .fourTwo > .overlay > img {
   height: 75vh;
-  width: 16vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px navajowhite;
 }
@@ -429,7 +429,7 @@
 
 .fourThree > .overlay > img {
   height: 75vh;
-  width: 15vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px aqua;
 }
@@ -442,7 +442,7 @@
 
 .fourFour > .overlay > img {
   height: 75vh;
-  width: 13vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px seashell;
 }
