@@ -114,7 +114,7 @@
   }
 
   .nav-links:hover {
-    background-color: transparent;
+    background-color: red;
     color: #242424;
     border-radius: 0;
   }
