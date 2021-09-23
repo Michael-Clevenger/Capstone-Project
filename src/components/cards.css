@@ -100,7 +100,7 @@ h1 {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1880px) {
   .content__blog__container {
     display: grid;
     grid-template-columns: auto;
