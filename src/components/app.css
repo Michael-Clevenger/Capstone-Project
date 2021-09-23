@@ -307,7 +307,7 @@
 
 .threeOne > .overlay > img {
   height: 75vh;
-  width: 13vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px pink;
 }
@@ -320,7 +320,7 @@
 
 .threeTwo > .overlay > img {
   height: 75vh;
-  width: 23vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px cornflowerblue;
 }
@@ -333,7 +333,7 @@
 
 .threeThree > .overlay > img {
   height: 75vh;
-  width: 22vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px seagreen;
 }
@@ -346,7 +346,7 @@
 
 .threeFour > .overlay > img {
   height: 75vh;
-  width: 12vw;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px magenta;
 }
