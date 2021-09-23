@@ -7,8 +7,12 @@ import Footer from "../footer";
 function Home() {
   return (
     <div>
-      <HeroSection />
-      <Cards />
+      <div>
+        <HeroSection />
+      </div>
+      <div>
+        <Cards />
+      </div>
     </div>
   );
 }
