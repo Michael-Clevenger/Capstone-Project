@@ -23,7 +23,7 @@
 .zeroOne > .overlay > img {
   height: 75vh;
   width: 99%;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightcoral;
 }
 
@@ -36,7 +36,7 @@
 
 .zeroTwo > .overlay > img {
   height: 75vh;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lime;
 }
 
@@ -49,7 +49,7 @@
 .zeroThree > .overlay > img {
   height: 75vh;
   width: 21vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightseagreen;
 }
 
@@ -62,7 +62,7 @@
 .zeroFour > .overlay > img {
   height: 75vh;
   width: 100%;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightskyblue;
 }
 
@@ -118,7 +118,7 @@
 
 .oneOne > .overlay > img {
   height: 75vh;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px orange;
 }
 
@@ -130,7 +130,7 @@
 
 .oneTwo > .overlay > img {
   height: 75vh;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px mediumspringgreen;
 }
 
@@ -143,7 +143,7 @@
 .oneThree > .overlay > img {
   height: 75vh;
   width: 15vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightseagreen;
 }
 
@@ -156,7 +156,7 @@
 .oneFour > .overlay > img {
   height: 75vh;
   width: 20vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightgray;
 }
 
@@ -212,7 +212,7 @@
 
 .twoOne > .overlay > img {
   height: 75vh;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px orange;
 }
 
@@ -225,7 +225,7 @@
 .twoTwo > .overlay > img {
   height: 75vh;
   width: 20vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px mediumspringgreen;
 }
 
@@ -238,7 +238,7 @@
 .twoThree > .overlay > img {
   height: 75vh;
   width: 16vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightseagreen;
 }
 
@@ -251,7 +251,7 @@
 .twoFour > .overlay > img {
   height: 75vh;
   width: 15.5vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px lightgray;
 }
 
@@ -308,7 +308,7 @@
 .threeOne > .overlay > img {
   height: 75vh;
   width: 13vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px pink;
 }
 
@@ -321,7 +321,7 @@
 .threeTwo > .overlay > img {
   height: 75vh;
   width: 23vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px cornflowerblue;
 }
 
@@ -334,7 +334,7 @@
 .threeThree > .overlay > img {
   height: 75vh;
   width: 22vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px seagreen;
 }
 
@@ -347,7 +347,7 @@
 .threeFour > .overlay > img {
   height: 75vh;
   width: 12vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px magenta;
 }
 
@@ -404,7 +404,7 @@
 .fourOne > .overlay > img {
   height: 75vh;
   width: 16vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px chocolate;
 }
 
@@ -417,7 +417,7 @@
 .fourTwo > .overlay > img {
   height: 75vh;
   width: 16vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px navajowhite;
 }
 
@@ -430,7 +430,7 @@
 .fourThree > .overlay > img {
   height: 75vh;
   width: 15vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px aqua;
 }
 
@@ -443,7 +443,7 @@
 .fourFour > .overlay > img {
   height: 75vh;
   width: 13vw;
-  margin: auto;
+  margin: 5px;
   box-shadow: 0 1px 20px seashell;
 }
 
