@@ -114,7 +114,7 @@
   }
 
   .nav-links:hover {
-    background-color: red;
+    background-color: transparent;
     color: #242424;
     border-radius: 0;
   }
@@ -150,14 +150,14 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: transparent;
+    color: red;
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
   .nav-links-mobile:hover {
-    background: red;
+    background: transparent;
     color: #242424;
     transition: 250ms;
   }
