@@ -8,6 +8,8 @@ video {
 
 .hero-container {
   background-image: url("https://i.imgur.com/uJF2tz3.gif");
+  background-repeat: no-repeat;
+  background-position-x: center;
   background-color: black;
   height: 20vh;
   width: 100vw;
