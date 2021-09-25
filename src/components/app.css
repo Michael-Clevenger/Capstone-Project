@@ -29,7 +29,8 @@
 
 .zeroOne > .overlay > .zeroOneDescription {
   color: red;
-
+  margin-left: 5px;
+  margin-right: 5px;
   font-size: 18.7px;
   text-align: center;
 }
@@ -44,6 +45,8 @@
 .zeroTwo > .overlay > .zeroTwoDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -57,6 +60,8 @@
 .zeroThree > .overlay > .zeroThreeDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -70,6 +75,8 @@
 .zeroFour > .overlay > .zeroFourDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -77,7 +84,7 @@
   .zeroImg {
     display: grid;
     overflow: hidden;
-    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-columns: 1fr;
     align-content: center;
   }
 
@@ -155,6 +162,8 @@
 .oneOne > .overlay > .oneOneDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -167,6 +176,8 @@
 .oneTwo > .overlay > .oneTwoDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -180,6 +191,8 @@
 .oneThree > .overlay > .oneThreeDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -193,6 +206,8 @@
 .oneFour > .overlay > .oneFourDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -249,6 +264,8 @@
 .twoOne > .overlay > .twoOneDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -262,6 +279,8 @@
 .twoTwo > .overlay > .twoTwoDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -275,6 +294,8 @@
 .twoThree > .overlay > .twoThreeDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -288,6 +309,8 @@
 .twoFour > .overlay > .twoFourDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -345,6 +368,8 @@
 .threeOne > .overlay > .threeOneDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -358,6 +383,8 @@
 .threeTwo > .overlay > .threeTwoDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -371,6 +398,8 @@
 .threeThree > .overlay > .threeThreeDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -384,6 +413,8 @@
 .threeFour > .overlay > .threeFourDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -441,6 +472,8 @@
 .fourOne > .overlay > .fourOneDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -454,6 +487,8 @@
 .fourTwo > .overlay > .fourTwoDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -467,6 +502,8 @@
 .fourThree > .overlay > .fourThreeDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
@@ -480,6 +517,8 @@
 .fourFour > .overlay > .fourFourDescription {
   color: red;
   font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-align: center;
 }
 
