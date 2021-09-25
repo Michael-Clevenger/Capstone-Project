@@ -75,6 +75,35 @@
 
 @media screen and (max-width: 1250px) {
   .zeroImg {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    align-content: center;
+  }
+
+  .zeroImg > .zeroOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .zeroImg > .zeroFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .zeroImg {
     display: flex;
     flex-direction: column;
     align-items: center;
