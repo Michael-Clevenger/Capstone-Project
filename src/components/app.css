@@ -88,22 +88,30 @@
   }
 
   .zeroImg > .zeroOne > .overlay > img {
-    width: 75vw;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 90%;
   }
 
   .zeroImg > .zeroTwo > .overlay > img {
-    width: 75vw;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 90%;
   }
 
   .zeroImg > .zeroThree > .overlay > img {
-    width: 75vw;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 90%;
   }
 
   .zeroImg > .zeroFour > .overlay > img {
-    width: 75vw;
+    width: 75%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 90%;
   }
 }
