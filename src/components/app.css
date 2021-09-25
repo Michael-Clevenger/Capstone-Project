@@ -110,22 +110,22 @@
   }
 
   .zeroImg > .zeroOne > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroTwo > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroThree > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroFour > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 }
