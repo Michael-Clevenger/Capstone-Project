@@ -77,27 +77,27 @@
   .zeroImg {
     display: grid;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(1fr, 1fr);
     align-content: center;
   }
 
   .zeroImg > .zeroOne > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroTwo > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroThree > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 
   .zeroImg > .zeroFour > .overlay > img {
-    width: 100vw;
+    width: 75vw;
     height: 90%;
   }
 }
