@@ -82,9 +82,7 @@
 
 @media screen and (max-width: 1250px) {
   .zeroImg {
-    display: grid;
-    overflow: hidden;
-    grid-template-columns: 1fr;
+    flex-wrap: wrap;
     align-content: center;
   }
 
