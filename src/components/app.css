@@ -72,7 +72,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (min-width: 1240px) {
   .zeroImg {
     display: flex;
     flex-direction: column;
