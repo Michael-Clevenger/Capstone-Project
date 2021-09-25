@@ -36,6 +36,7 @@
 
 .zeroTwo > .overlay > img {
   height: 75vh;
+  width: 95%;
   margin: 5px;
   box-shadow: 0 1px 20px lime;
 }
