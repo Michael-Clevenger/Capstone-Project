@@ -17,7 +17,7 @@
 
 .zeroImg {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .zeroOne > .overlay > img {
