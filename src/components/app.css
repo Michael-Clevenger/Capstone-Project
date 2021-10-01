@@ -23,6 +23,7 @@
 
 .zeroOne > .overlay > img {
   height: 75vh;
+  margin-left: 5px;
   width: 95%;
   box-shadow: 0 1px 20px lightcoral;
 }
