@@ -79,7 +79,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1400px) {
   .zeroImg {
     display: grid;
     grid-template-columns: 1fr 1fr;
