@@ -152,7 +152,6 @@
 
 .oneOne > .overlay > img {
   height: 75vh;
-  width: 100%;
   margin: 5px;
   box-shadow: 0 1px 20px orange;
 }
@@ -167,7 +166,6 @@
 
 .oneTwo > .overlay > img {
   height: 75vh;
-  width: 100%;
   margin: 5px;
   box-shadow: 0 1px 20px mediumspringgreen;
 }
@@ -182,7 +180,7 @@
 
 .oneThree > .overlay > img {
   height: 75vh;
-  width: 100%;
+  width: 15vw;
   margin: 5px;
   box-shadow: 0 1px 20px lightseagreen;
 }
@@ -197,7 +195,7 @@
 
 .oneFour > .overlay > img {
   height: 75vh;
-  width: 100%;
+  width: 20vw;
   margin: 5px;
   box-shadow: 0 1px 20px lightgray;
 }
