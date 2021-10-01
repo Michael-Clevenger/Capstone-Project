@@ -86,22 +86,22 @@
   }
 
   .zeroImg > .zeroOne > .overlay > img {
-    width: 75%;
+    width: 100%;
     height: 500px;
   }
 
   .zeroImg > .zeroTwo > .overlay > img {
-    width: 75%;
+    width: 100%;
     height: 500px;
   }
 
   .zeroImg > .zeroThree > .overlay > img {
-    width: 75%;
+    width: 100%;
     height: 500px;
   }
 
   .zeroImg > .zeroFour > .overlay > img {
-    width: 75%;
+    width: 100%;
     height: 500px;
   }
 }
@@ -114,22 +114,22 @@
   }
 
   .zeroImg > .zeroOne > .overlay > img {
-    width: 75vw;
+    width: 100vw;
     height: 90%;
   }
 
   .zeroImg > .zeroTwo > .overlay > img {
-    width: 75vw;
+    width: 100vw;
     height: 90%;
   }
 
   .zeroImg > .zeroThree > .overlay > img {
-    width: 75vw;
+    width: 100vw;
     height: 90%;
   }
 
   .zeroImg > .zeroFour > .overlay > img {
-    width: 75vw;
+    width: 100vw;
     height: 90%;
   }
 }
