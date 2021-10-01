@@ -14,7 +14,6 @@ h1 {
   max-width: 1800px;
   width: 90%;
   margin: 0 auto;
-  position: absolute;
 }
 
 .cards__wrapper {
@@ -43,6 +42,7 @@ h1 {
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
   text-decoration: none;
 }
 
