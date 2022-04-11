@@ -8,6 +8,7 @@ import One from "./pages/one";
 import Two from "./pages/two";
 import Three from "./pages/three";
 import Four from "./pages/four";
+import Five from "./pages/five";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
@@ -40,6 +41,7 @@ export default class App extends Component {
             <Route path="/two" component={Two} />
             <Route path="/three" component={Three} />
             <Route path="/four" component={Four} />
+            <Route path="/five" component={Five} />
           </Switch>
         </Router>
       </div>

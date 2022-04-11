@@ -71,6 +71,11 @@ function Navbar() {
                 Year 4
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/five" className="nav-links" onClick={closeMobileMenu}>
+                Year 5
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
