@@ -41,7 +41,7 @@ function Cards() {
               path="/four"
             />
             <CardItem
-              src="https://imgur.com/a/n8LfzaN.jpg"
+              src="https://i.imgur.com/pYmil5L.jpg"
               text="It's Official, He's A 'Big Boy' Now!"
               label="Year Five"
               path="/five"
