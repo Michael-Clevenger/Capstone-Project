@@ -548,3 +548,107 @@
     height: 90%;
   }
 }
+
+/* Year Five */
+
+.yearFive > .five-header > h1 {
+  color: red;
+  font-size: 20px;
+}
+
+.yearFive {
+  background-color: rgba(5, 3, 3, 0.788);
+}
+
+.fiveImg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fiveOne > .overlay > img {
+  height: 75vh;
+  width: 27vw;
+  margin: 5px;
+  box-shadow: 0 1px 20px orange;
+}
+
+.fiveOne > .overlay > .fiveOneDescription {
+  color: red;
+  font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.fiveTwo > .overlay > img {
+  height: 75vh;
+  width: 25vw;
+  margin: 5px;
+  box-shadow: 0 1px 20px mediumspringgreen;
+}
+
+.fiveTwo > .overlay > .fiveTwoDescription {
+  color: red;
+  font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.fiveThree > .overlay > img {
+  height: 75vh;
+  width: 20vw;
+
+  box-shadow: 0 1px 20px lightseagreen;
+}
+
+.fiveThree > .overlay > .fiveThreeDescription {
+  color: red;
+  font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.fiveFour > .overlay > img {
+  height: 75vh;
+  width: 20vw;
+  margin: 3px;
+  box-shadow: 0 1px 20px lightgray;
+}
+
+.fiveFour > .overlay > .fiveFourDescription {
+  color: red;
+  font-size: 18.7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1536px) {
+  .fiveImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fiveImg > .fiveOne > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fiveImg > .fiveTwo > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fiveImg > .fiveThree > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+
+  .fiveImg > .fiveFour > .overlay > img {
+    width: 100vw;
+    height: 90%;
+  }
+}
