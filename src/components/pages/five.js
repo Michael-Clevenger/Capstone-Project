@@ -14,7 +14,7 @@ const Five = () => {
   const [descriptionFour, setDescriptionFour] = useState("");
 
   const fetchData = () => {
-    const fiveImgOne = "https://capstone-db-main.herokuapp.com/image/25";
+    const fiveImgOne = "https://capstone-db-main.herokuapp.com/image/24";
     const fiveImgTwo = "https://capstone-db-main.herokuapp.com/image/27";
     const fiveImgThree = "https://capstone-db-main.herokuapp.com/image/28";
     const fiveImgFour = "https://capstone-db-main.herokuapp.com/image/29";
